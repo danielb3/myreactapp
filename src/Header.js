@@ -17,7 +17,19 @@ const styles = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     color: 'white'
-    }
+    },
+    button: {
+        backgroundColor: '#4CAF50',
+        border: 'none',
+        color: 'white',
+        padding: '15px 32px',
+        textAlign: 'center',
+        textDecoration: 'none',
+        display: 'inline-block',
+        fontSize: '16px',
+        margin: '4px 2px',
+        cursor: 'pointer'
+      }
   };
 
 class Header extends React.Component {
@@ -40,9 +52,9 @@ class Header extends React.Component {
             <div style={styles.heroText}>
                 <h1>I am Daniel Button</h1>
                 <p>And I'm a Full Stack Web Developer</p>
-                <button onClick={this.handleClick1}>See Skills</button>
-                <button onClick={this.handleClick2}>See Portfolio</button>
-                <button onClick={this.handleClick3}>Contact Me</button>
+                <button style={styles.button} onClick={this.handleClick1}>See Skills</button>
+                <button style={styles.button} onClick={this.handleClick2}>See Portfolio</button>
+                <button style={styles.button} onClick={this.handleClick3}>Contact Me</button>
             </div>
           </div>
     );

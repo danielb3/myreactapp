@@ -5,7 +5,8 @@ import img3 from './timesheet.png'
 
 const styles = {
     title: {
-        textAlign: "center"
+        textAlign: "center",
+        color: 'white'
     },
     cards: {
         margin: '0 auto',
@@ -18,45 +19,54 @@ const styles = {
         margin: '1em',
         textAlign: 'center',
         display: 'inline-block',
-        verticalAlign: 'middle'
-        
+        verticalAlign: 'middle',   
+        background: 'white',
+        color: 'black'
       },
     container: {
         padding: '2px 16px',
-      }
+      },
+    //   background: {
+    //     // background: '#224B89',
+    //     backgroundImage: 'linear-gradient(#224B89, #1373B8)',
+    //     padding: '10px'
+    // }
 }
 class Body extends React.Component {
     render() {
         return (
-            <div>
+            <div style={styles.background}>
                 <h1 id="portfolio" style={styles.title}>Portfolio</h1>
                 <div style={styles.cards}>
                     <div style={styles.card}>
                     <a href='https://lychee-pudding-75464.herokuapp.com/' target='_blank'>
                         <img src={img1} alt="car dealership" width='100%'/>
+                        </a>
                         <div style={styles.container}>
                             <h4><b>Car Dealership Website</b></h4> 
-                            <p>Node, Express, Heroku</p> 
+                            <p>HTML, CSS, Node, Express, Heroku</p> 
                         </div>
-                        </a>
+                        
                     </div>
                     <div style={styles.card}>
                     <a href='https://shielded-thicket-55175.herokuapp.com/' target='_blank'>
                         <img src={img2} alt="news scraper" width='100%'/>
+                        </a>
                         <div style={styles.container}>
                             <h4><b>News Scraper App</b></h4> 
-                            <p>Node, Express, Axios, jQuery, Heroku</p> 
+                            <p>HTML, CSS, Node, Express, Axios, jQuery, Heroku</p> 
                         </div>
-                        </a>
+                        
                     </div>
                     <div style={styles.card}>
                     <a href='https://calm-bastion-82404.herokuapp.com/' target='_blank'>
                         <img src={img3} alt="timesheet" width='100%'/>
+                        </a>
                         <div style={styles.container}>
                             <h4><b>Employee Timesheet App</b></h4> 
-                            <p>Bootstrap, Node, Express, jQuery, AJAX, MongoDB, Heroku</p> 
+                            <p>HTML, Bootstrap, Node, Express, jQuery, AJAX, MongoDB, Heroku</p> 
                         </div>
-                        </a>
+                        
                     </div>
                 </div>
             </div>
