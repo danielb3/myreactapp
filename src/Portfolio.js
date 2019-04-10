@@ -1,5 +1,6 @@
 import React from 'react';
-import img1a from './images/bookmark.png';
+import img1a from './images/restaurant.png';
+import img2a from './images/bookmark.png';
 import img1b from './images/dealership.png';
 import img2b from './images/newscraper.png';
 import img3b from './images/timesheet.png';
@@ -48,15 +49,25 @@ class Body extends React.Component {
         return (
             <div style={styles.background}>
                 <h1 id="portfolio" ref="a" style={styles.title}>Portfolio</h1>
-                <h3 style={styles.title}>Group Class Projects</h3>
+                <h3 style={styles.title}>Group Projects</h3>
                 <div style={styles.cards2}>
                     <div style={styles.card}>
+                    <a href='https://danielb3.github.io/project-0/' target='_blank'>
+                        <img src={img1a} alt="car dealership" width='100%'/>
+                        </a>
+                        <div style={styles.container}>
+                            <h4><b>Restaurant Finder - May 2018</b></h4> 
+                            <p>HTML, CSS, JavaScript</p>
+                            <p>My role: JavaScript code</p>
+                        </div> 
+                    </div>
+                    <div style={styles.card}>
                     <a href='https://salty-brook-20670.herokuapp.com/' target='_blank'>
-                        <img src={img1a} alt="bookmarking site" width='100%'/>
+                        <img src={img2a} alt="bookmarking site" width='100%'/>
                         </a>
                         <div style={styles.container}>
                             <h4><b>Bookmarking Site - July 2018</b></h4>
-                            <p>HTML, CSS, Node, Express, Passport, Heroku</p>
+                            <p>HTML, CSS, jQuery, Node, Express, Passport, Heroku</p>
                             <p>My role: Front-end design</p>
                             <p><i>Email: example@example.com, Pwd: password</i></p> 
                         </div>  
