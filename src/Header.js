@@ -1,10 +1,14 @@
 import React from 'react';
-import img from './geo.jpg'
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import img from './images/geo.jpg';
+import Portfolio from './Portfolio';
+import ReactDOM from 'react-dom';
 
 const styles = {
     heroImage: {
     backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))',
-    height: '100%',
+    // height: '100%',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
@@ -32,19 +36,30 @@ const styles = {
       }
   };
 
+// var scroll = Scroll.animateScroll;
+
 class Header extends React.Component {
     handleClick1 = () => {
         console.log('this is:', this);
-        window.location.href="#skills"
+        // window.location.href="#skills"
+        scroll.scrollTo(650);
       }
     handleClick2 = () => {
-        console.log('this is:', this);
-        window.location.href="#portfolio"
+        console.log('this is:');
+        // window.location.href="#portfolio"
+        scroll.scrollTo(1250);
       }
     handleClick3 = () => {
         console.log('this is:', this);
-        window.location.href="#contact"
+        // window.location.href="#contact"
+        scroll.scrollTo(2200);
       }
+    handleClick4 = () => {
+        console.log('this is:', this);
+        // window.location.href="#contact"
+        scroll.scrollTo(3000);
+      }
+
     render() {
         return (
         <div style={[styles.heroImage, {backgroundImage: `url(' + require('./geo.png') + ')`}]}>
@@ -52,9 +67,10 @@ class Header extends React.Component {
             <div style={styles.heroText}>
                 <h1>I am Daniel Button</h1>
                 <p>And I'm a Full Stack Web Developer</p>
-                <button style={styles.button} onClick={this.handleClick1}>See Skills</button>
-                <button style={styles.button} onClick={this.handleClick2}>See Portfolio</button>
-                <button style={styles.button} onClick={this.handleClick3}>Contact Me</button>
+                <button style={styles.button} onClick={this.handleClick1}>My Skills</button>
+                <button style={styles.button} onClick={this.handleClick2}>My Portfolio</button>
+                <button style={styles.button} onClick={this.handleClick3}>About Me</button>
+                <button style={styles.button} onClick={this.handleClick4}>Contact Me</button>
             </div>
           </div>
     );

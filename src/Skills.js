@@ -1,4 +1,14 @@
 import React from 'react';
+import htmlimg from './images/html5_logo.png';
+import cssimg from './images/css3_logo.png';
+import herokuimg from './images/heroku_logo.png';
+import jqueryimg from './images/jquery_logo.png';
+import jsimg from './images/js_logo.png';
+import mongoimg from './images/mongodb_logo.png';
+import mysqlimg from './images/mysql_logo.png';
+import nodeimg from './images/node_logo.png';
+import reactimg from './images/react_logo.png';
+import awsimg from './images/aws_logo.png';
 
 const styles = {
     title: {
@@ -31,29 +41,29 @@ class Body extends React.Component {
                         <th>Server</th>
                     </tr>
                     <tr>
-                        <td>HTML</td>
-                        <td>Node</td>
-                        <td>MongoDB</td>
-                        <td>AWS Elastic Beanstalk</td>
+                        <td><img src={htmlimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td><img src={nodeimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td><img src={mongoimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td><img src={awsimg} className="App-logo" alt="cover" height="100px" /></td>
                     </tr>
                     <tr>
-                        <td>CSS</td>
+                        <td><img src={cssimg} className="App-logo" alt="cover" height="100px" /></td>
                         <td></td>
-                        <td>MySQL</td>
-                        <td>Heroku</td>
+                        <td><img src={mysqlimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td><img src={herokuimg} className="App-logo" alt="cover" height="100px" /></td>
                     </tr>
                     <tr>
-                        <td>JavaScript</td>
+                        <td><img src={jsimg} className="App-logo" alt="cover" height="100px" /></td>
                         
                         
-                        
-                    </tr>
-                    <tr>
-                        <td>jQuery</td>
                         
                     </tr>
                     <tr>
-                        <td>React</td>
+                        <td><img src={jqueryimg} className="App-logo" alt="cover" height="50px" /></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src={reactimg} className="App-logo" alt="cover" height="100px" /></td>
                         
                     </tr>
                 </table>

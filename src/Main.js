@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
+import About from './About';
 import Contact from './Contact';
 
 
@@ -19,6 +20,7 @@ class Main extends React.Component {
                 <Header />
                 <Skills />
                 <Portfolio />
+                <About />
                 <Contact />
             </div>
         )}
