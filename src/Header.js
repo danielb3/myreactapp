@@ -4,6 +4,7 @@ import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } 
 import img from './images/geo.jpg';
 import Portfolio from './Portfolio';
 import ReactDOM from 'react-dom';
+import WOW from 'wowjs';
 
 const styles = {
     heroImage: {
@@ -47,6 +48,9 @@ const styles = {
 // var scroll = Scroll.animateScroll;
 
 class Header extends React.Component {
+    componentDidMount() {
+        new WOW.WOW().init();
+    }
     handleClick1 = () => {
         console.log('this is:', this);
         // window.location.href="#skills"
