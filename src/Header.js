@@ -33,7 +33,15 @@ const styles = {
         fontSize: '16px',
         margin: '4px 2px',
         cursor: 'pointer'
-      }
+    },
+    effect: {
+        color: 'white',
+        fontSize: '40px',
+        textShadow: 'rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px'
+    },
+    second: {
+        fontSize: '30px'
+    }
   };
 
 // var scroll = Scroll.animateScroll;
@@ -63,10 +71,10 @@ class Header extends React.Component {
     render() {
         return (
         <div style={[styles.heroImage, {backgroundImage: `url(' + require('./geo.png') + ')`}]}>
-        <img src={img} className="App-logo" alt="cover" />
+        <img src={img} alt="cover" />
             <div style={styles.heroText}>
-                <h1>I am Daniel Button</h1>
-                <p>And I'm a Full Stack Web Developer</p>
+                <h1 style={styles.effect}>Hello, I am Daniel Button</h1>
+                <p style={styles.second}>And I'm a Full Stack Web Developer</p>
                 <button style={styles.button} onClick={this.handleClick1}>My Skills</button>
                 <button style={styles.button} onClick={this.handleClick2}>My Portfolio</button>
                 <button style={styles.button} onClick={this.handleClick3}>About Me</button>

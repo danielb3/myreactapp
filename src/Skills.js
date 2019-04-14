@@ -9,6 +9,7 @@ import mysqlimg from './images/mysql_logo.png';
 import nodeimg from './images/node_logo.png';
 import reactimg from './images/react_logo.png';
 import awsimg from './images/aws_logo.png';
+import css from './App';
 
 const styles = {
     title: {
@@ -21,12 +22,6 @@ const styles = {
         tableLayout: 'fixed',
         color: 'white',
     },
-    // background: {
-    //     // background: '#224B89',
-    //     backgroundImage: 'linear-gradient(#224B89, #1373B8)',
-    //     color: 'white',
-    //     padding: '10px'
-    // }
 }
 class Body extends React.Component {
     render() {
@@ -39,6 +34,12 @@ class Body extends React.Component {
                         <th>Back-End</th>
                         <th>Database</th>
                         <th>Server</th>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
                     </tr>
                     <tr>
                         <td><img src={htmlimg} className="App-logo" alt="cover" height="100px" /></td>
@@ -59,11 +60,11 @@ class Body extends React.Component {
                         
                     </tr>
                     <tr>
-                        <td><img src={jqueryimg} className="App-logo" alt="cover" height="50px" /></td>
+                        <td><img src={reactimg} className="App-logo" alt="cover" height="100px" /></td>
                         
                     </tr>
                     <tr>
-                        <td><img src={reactimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td><img src={jqueryimg} className="App-logo" alt="cover" height="50px" /></td>
                         
                     </tr>
                 </table>
