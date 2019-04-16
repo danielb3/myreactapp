@@ -19,6 +19,7 @@ class Contact extends React.Component {
         return (
             <div style={styles.background}>
                 <h1 id="contact" style={styles.title}>Contact Me</h1>
+                <p className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>I'm currently looking for a position as a full-stack developer doing Front-end, Back-end, and Database coding.</p>
                 <p className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Email: danielbutton001 [at] gmail [dot] com</p>
                 <p className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Phone: two one six - two one two - two nine five nine</p>
                 <p className="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Location: Greater Washington, DC Region</p>

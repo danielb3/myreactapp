@@ -45,13 +45,14 @@ class Body extends React.Component {
                         <td><img src={htmlimg} className="App-logo" alt="cover" height="100px" /></td>
                         <td><img src={nodeimg} className="App-logo" alt="cover" height="100px" /></td>
                         <td><img src={mongoimg} className="App-logo" alt="cover" height="100px" /></td>
-                        <td><img src={awsimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td><img src={herokuimg} className="App-logo" alt="cover" height="100px" /></td>
+                        
                     </tr>
                     <tr>
                         <td><img src={cssimg} className="App-logo" alt="cover" height="100px" /></td>
                         <td></td>
-                        <td><img src={mysqlimg} className="App-logo" alt="cover" height="100px" /></td>
-                        <td><img src={herokuimg} className="App-logo" alt="cover" height="100px" /></td>
+                        {/* <td><img src={mysqlimg} className="App-logo" alt="cover" height="100px" /></td> */}
+                        {/* <td><img src={awsimg} className="App-logo" alt="cover" height="100px" /></td> */}
                     </tr>
                     <tr>
                         <td><img src={jsimg} className="App-logo" alt="cover" height="100px" /></td>
