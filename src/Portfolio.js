@@ -48,10 +48,10 @@ class Body extends React.Component {
     render() {
         return (
             <div style={styles.background}>
-                <h1 id="portfolio" ref="a" style={styles.title}>Portfolio</h1>
-                <h3 style={styles.title}>Group Projects</h3>
+                <h1 id="portfolio" className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ref="a" style={styles.title}>Portfolio</h1>
+                <h3 className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Group Projects</h3>
                 <div style={styles.cards2}>
-                    <div className="wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
+                    <div className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
                     <a href='https://danielb3.github.io/project-0/' target='_blank'>
                         <img src={img1a} alt="car dealership" width='100%'/>
                         </a>
@@ -61,7 +61,7 @@ class Body extends React.Component {
                             <p>My role: JavaScript code</p>
                         </div> 
                     </div>
-                    <div className="wow slideInRight" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
+                    <div className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
                     <a href='https://salty-brook-20670.herokuapp.com/' target='_blank'>
                         <img src={img2a} alt="bookmarking site" width='100%'/>
                         </a>
@@ -73,9 +73,9 @@ class Body extends React.Component {
                         </div>  
                     </div>
                 </div>
-                <h3 style={styles.title}>Individual Projects</h3>
+                <h3 className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Individual Projects</h3>
                 <div style={styles.cards}>
-                    <div className="wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
+                    <div className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
                     <a href='https://lychee-pudding-75464.herokuapp.com/' target='_blank'>
                         <img src={img1b} alt="car dealership" width='100%'/>
                         </a>
@@ -84,7 +84,7 @@ class Body extends React.Component {
                             <p>HTML, CSS, Node, Express, Heroku</p> 
                         </div> 
                     </div>
-                    <div className="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
+                    <div className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
                     <a href='https://shielded-thicket-55175.herokuapp.com/' target='_blank'>
                         <img src={img2b} alt="news scraper" width='100%'/>
                         </a>
@@ -93,7 +93,7 @@ class Body extends React.Component {
                             <p>HTML, CSS, Node, Express, Axios, jQuery, Heroku</p> 
                         </div>  
                     </div>
-                    <div className="wow slideInRight" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
+                    <div className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
                     <a href='https://calm-bastion-82404.herokuapp.com/' target='_blank'>
                         <img src={img3b} alt="timesheet" width='100%'/>
                         </a>

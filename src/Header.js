@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Scroll from 'react-scroll';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import img from './images/geo.jpg';
+import img from './images/night.jpg';
 import Portfolio from './Portfolio';
 import ReactDOM from 'react-dom';
 import WOW from 'wowjs';
@@ -24,7 +24,7 @@ const styles = {
         color: 'white'
     },
     button: {
-        backgroundColor: '#4CAF50',
+        backgroundColor: '#27285E',
         border: 'none',
         color: 'white',
         padding: '15px 32px',

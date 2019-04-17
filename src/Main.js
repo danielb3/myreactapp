@@ -9,7 +9,7 @@ import Contact from './Contact';
 const styles = {
     background: {
         padding: '0 0 10px 0',
-        backgroundImage: 'linear-gradient(to bottom right, #1E5494, #224B89, #1373B8)',
+        backgroundImage: 'linear-gradient(to bottom right, black, #36394D, #674220)',
     }
 }
 

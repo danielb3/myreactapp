@@ -10,6 +10,7 @@ import nodeimg from './images/node_logo.png';
 import reactimg from './images/react_logo.png';
 import awsimg from './images/aws_logo.png';
 import css from './App';
+import WOW from 'wowjs';
 
 const styles = {
     title: {
@@ -24,16 +25,19 @@ const styles = {
     },
 }
 class Body extends React.Component {
+    componentDidMount() {
+        new WOW.WOW().init();
+    }
     render() {
         return (
             <div style={styles.background}>
-                <h1 id="skills" style={styles.title}>Skills</h1>
+                <h1 id="skills" className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Skills</h1>
                 <table style={styles.table}>
                     <tr>
-                        <th>Front-End</th>
-                        <th>Back-End</th>
-                        <th>Database</th>
-                        <th>Server</th>
+                        <th className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" >Front-End</th>
+                        <th className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" >Back-End</th>
+                        <th className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" >Database</th>
+                        <th className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" >Server</th>
                     </tr>
                     <tr>
                         <td> </td>
@@ -42,30 +46,30 @@ class Body extends React.Component {
                         <td> </td>
                     </tr>
                     <tr>
-                        <td><img src={htmlimg} className="App-logo" alt="cover" height="100px" /></td>
-                        <td><img src={nodeimg} className="App-logo" alt="cover" height="100px" /></td>
-                        <td><img src={mongoimg} className="App-logo" alt="cover" height="100px" /></td>
-                        <td><img src={herokuimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={htmlimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={nodeimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={mongoimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={herokuimg} className="App-logo" alt="cover" height="100px" /></td>
                         
                     </tr>
                     <tr>
-                        <td><img src={cssimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={cssimg} className="App-logo" alt="cover" height="100px" /></td>
                         <td></td>
                         {/* <td><img src={mysqlimg} className="App-logo" alt="cover" height="100px" /></td> */}
                         {/* <td><img src={awsimg} className="App-logo" alt="cover" height="100px" /></td> */}
                     </tr>
                     <tr>
-                        <td><img src={jsimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={jsimg} className="App-logo" alt="cover" height="100px" /></td>
                         
                         
                         
                     </tr>
                     <tr>
-                        <td><img src={reactimg} className="App-logo" alt="cover" height="100px" /></td>
+                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={reactimg} className="App-logo" alt="cover" height="100px" /></td>
                         
                     </tr>
                     <tr>
-                        <td><img src={jqueryimg} className="App-logo" alt="cover" height="50px" /></td>
+                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={jqueryimg} className="App-logo" alt="cover" height="50px" /></td>
                         
                     </tr>
                 </table>
