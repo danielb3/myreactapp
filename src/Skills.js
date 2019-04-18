@@ -68,10 +68,6 @@ class Body extends React.Component {
                         <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={reactimg} className="App-logo" alt="cover" height="100px" /></td>
                         
                     </tr>
-                    <tr>
-                        <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={jqueryimg} className="App-logo" alt="cover" height="50px" /></td>
-                        
-                    </tr>
                 </table>
             </div>
         )}

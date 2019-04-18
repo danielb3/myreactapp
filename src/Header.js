@@ -78,7 +78,7 @@ class Header extends React.Component {
         <img src={img} alt="cover" />
             <div style={styles.heroText}>
                 <h1 className="wow rollIn" data-wow-duration="2s" data-wow-delay=".2s" data-wow-offset="20" style={styles.effect}>Hello, I am Daniel Button</h1>
-                <p className="wow zoomIn" data-wow-duration="1s" data-wow-delay="2.5s" data-wow-offset="20" style={styles.second}>And I'm a Full Stack Web Developer</p>
+                <p className="wow zoomIn" data-wow-duration="1s" data-wow-delay="2.5s" data-wow-offset="20" style={styles.second}>And I'm a Web Programming Boot Camp Graduate</p>
                 <button className="wow flipInX" data-wow-duration="1s" data-wow-delay="4s" data-wow-offset="20" style={styles.button} onClick={this.handleClick1}>My Skills</button>
                 <button className="wow flipInX" data-wow-duration="1s" data-wow-delay="5s" data-wow-offset="20"style={styles.button} onClick={this.handleClick2}>My Portfolio</button>
                 <button className="wow flipInX" data-wow-duration="1s" data-wow-delay="6s" data-wow-offset="20"style={styles.button} onClick={this.handleClick3}>About Me</button>
