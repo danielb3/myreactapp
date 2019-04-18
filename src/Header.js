@@ -8,20 +8,13 @@ import WOW from 'wowjs';
 
 const styles = {
     heroImage: {
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))',
-        width: '100%',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        position: 'relative'
+        padding: '5em',
+        border: '1px solid white'
     },
     heroText: {
         textAlign: 'center',
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        color: 'white'
+        color: 'white',
+        padding: '12em'
     },
     button: {
         backgroundColor: '#27285E',
@@ -74,8 +67,7 @@ class Header extends React.Component {
 
     render() {
         return (
-        <div style={[styles.heroImage, {backgroundImage: `url(' + require('./geo.png') + ')`}]}>
-        <img src={img} alt="cover" />
+        <div style={[styles.heroImage]}>
             <div style={styles.heroText}>
                 <h1 className="wow rollIn" data-wow-duration="2s" data-wow-delay=".2s" data-wow-offset="20" style={styles.effect}>Hello, I'm Daniel Button</h1>
                 <p className="wow zoomIn" data-wow-duration="1s" data-wow-delay="2.5s" data-wow-offset="20" style={styles.second}>And I'm a Web Programmer</p>

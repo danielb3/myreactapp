@@ -18,6 +18,7 @@ class Main extends React.Component {
         return (
             <div style={styles.background}>
                 <Header />
+                <br/>
                 <Skills />
                 <Portfolio />
                 <About />

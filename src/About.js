@@ -32,7 +32,7 @@ class About extends React.Component {
                 <h1 id="about" className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>About Me</h1>
                 <img className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.center} src={profile} alt="build process" height="100px"/>
                 <br/>
-                <p className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.par}>I got started in web development by taking a coding boot camp in Washington, DC.  During the program I found coding really resignated with me and decided to focus more of my attention towards pursuing it in greater depth.  Since finishing the boot camp in the summer of 2018, I have used my skills to build my own websites and apps as well as study PHP, Python, Perl, C, C#, .NET, WordPress, and Java (though I prefer working with JavaScript) and I'm still continuing to learn and improve each day.</p>
+                <p className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.par}>I got started web programming by taking a coding boot camp in Washington, DC.  During the program I found coding fun and decided to focus more of my attention towards pursuing it in greater depth.  Since finishing the boot camp in the summer of 2018, I have used my skills to build my own websites and apps as well as study PHP, Python, Perl, C, C#, .NET, WordPress, and Java (though I prefer working with JavaScript). And even though my knowledge of programming is quite limited, I'm still continuing to learn and improve upon it each day.</p>
                 <h2 className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>My Coding Style</h2>
                 <ul>
                     <li className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.par}>In learning and troubleshooting bugs I use a variety of resources like Stack Overflow, W3schools.org, Google, Medium, YouTube, and many other sites.</li>
@@ -44,7 +44,7 @@ class About extends React.Component {
                 {/* <img className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.center} src={build} alt="build process" width="40%"/> */}
                
                 <h2 className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Future Plans</h2>
-                <p className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.parC}>In 7-10 years I would like to be proficient enough as a web developer so that I can one day be a development lead, building really cool web apps or software programs at a major tech company.<br/><br/></p>
+                <p className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.parC}>In 7-10 years I would like to be proficient enough as a programmer so that I can become a development lead for a really cool web app or software program.<br/><br/></p>
             </div>
         )}
 }
