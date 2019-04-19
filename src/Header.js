@@ -57,12 +57,12 @@ class Header extends React.Component {
     handleClick3 = () => {
         console.log('this is:', this);
         // window.location.href="#aboutme"
-        scroll.scrollTo(2200);
+        scroll.scrollTo(2380);
       }
     handleClick4 = () => {
         console.log('this is:', this);
         // window.location.href="#contact"
-        scroll.scrollTo(3000);
+        scroll.scrollTo(4000);
       }
 
     render() {
@@ -70,7 +70,7 @@ class Header extends React.Component {
         <div style={[styles.heroImage]}>
             <div style={styles.heroText}>
                 <h1 className="wow rollIn" data-wow-duration="2s" data-wow-delay=".2s" data-wow-offset="20" style={styles.effect}>Hello, I'm Daniel Button</h1>
-                <p className="wow zoomIn" data-wow-duration="1s" data-wow-delay="2.5s" data-wow-offset="20" style={styles.second}>And I'm a Web Programmer</p>
+                <p className="wow zoomIn" data-wow-duration="1s" data-wow-delay="2.5s" data-wow-offset="20" style={styles.second}>I like Computers and Web Programming</p>
                 <button className="wow flipInX" data-wow-duration="1s" data-wow-delay="4s" data-wow-offset="20" style={styles.button} onClick={this.handleClick1}>My Skills</button>
                 <button className="wow flipInX" data-wow-duration="1s" data-wow-delay="5s" data-wow-offset="20"style={styles.button} onClick={this.handleClick2}>My Portfolio</button>
                 <button className="wow flipInX" data-wow-duration="1s" data-wow-delay="6s" data-wow-offset="20"style={styles.button} onClick={this.handleClick3}>About Me</button>
