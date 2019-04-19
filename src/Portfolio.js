@@ -8,8 +8,14 @@ import WOW from 'wowjs';
 
 const styles = {
     title: {
-        textAlign: "center",
-        color: 'white'
+        textAlign: 'center',
+        color: 'white',
+        fontSize: '1.7em'
+    },
+    title2: {
+        textAlign: 'center',
+        color: 'white',
+        fontSize: '1.4em'
     },
     cards: {
         margin: '0 auto',
@@ -49,7 +55,7 @@ class Body extends React.Component {
         return (
             <div style={styles.background}>
                 <h1 id="portfolio" className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ref="a" style={styles.title}>Portfolio</h1>
-                <h3 className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Group Projects</h3>
+                <h3 className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title2}>Group Projects</h3>
                 <div style={styles.cards2}>
                     <div className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
                     <a href='https://danielb3.github.io/project-0/' target='_blank'>
@@ -73,7 +79,7 @@ class Body extends React.Component {
                         </div>  
                     </div>
                 </div>
-                <h3 className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Individual Projects</h3>
+                <h3 className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title2}>Individual Projects</h3>
                 <div style={styles.cards}>
                     <div className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.card}>
                     <a href='https://lychee-pudding-75464.herokuapp.com/' target='_blank'>
@@ -101,9 +107,9 @@ class Body extends React.Component {
                             <h4><b>Employee Timesheet App - April 2019</b></h4> 
                             <p>HTML, Bootstrap, Node, Express, jQuery, AJAX, MongoDB, Heroku</p> 
                         </div>
-                        
                     </div>
                 </div>
+                <br/>
             </div>
         )}
 }

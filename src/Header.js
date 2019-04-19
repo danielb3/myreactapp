@@ -52,11 +52,11 @@ class Header extends React.Component {
     handleClick2 = () => {
         console.log('this is:');
         // window.location.href="#portfolio"
-        scroll.scrollTo(1250);
+        scroll.scrollTo(1200);
       }
     handleClick3 = () => {
         console.log('this is:', this);
-        // window.location.href="#contact"
+        // window.location.href="#aboutme"
         scroll.scrollTo(2200);
       }
     handleClick4 = () => {

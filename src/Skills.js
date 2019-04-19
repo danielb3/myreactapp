@@ -15,7 +15,8 @@ import WOW from 'wowjs';
 const styles = {
     title: {
         textAlign: "center",
-        color: 'white'
+        color: 'white',
+        fontSize: '1.7em'
     },
     table: {
         width: '100%',
@@ -32,6 +33,7 @@ class Body extends React.Component {
         return (
             <div style={styles.background}>
                 <h1 id="skills" className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" style={styles.title}>Skills</h1>
+                <br/>
                 <table style={styles.table}>
                     <tr>
                         <th className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" >Front-End</th>
@@ -40,9 +42,9 @@ class Body extends React.Component {
                         <th className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" >Server</th>
                     </tr>
                     <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
+                        <td>&nbsp; </td>
+                        <td>&nbsp; </td>
+                        <td>&nbsp; </td>
                         <td> </td>
                     </tr>
                     <tr>
@@ -60,9 +62,6 @@ class Body extends React.Component {
                     </tr>
                     <tr>
                         <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={jsimg} className="App-logo" alt="cover" height="100px" /></td>
-                        
-                        
-                        
                     </tr>
                     <tr>
                         <td className="wow fadeIn" data-wow-duration="3s" data-wow-delay=".5s" data-wow-offset="20" ><img src={reactimg} className="App-logo" alt="cover" height="100px" /></td>
